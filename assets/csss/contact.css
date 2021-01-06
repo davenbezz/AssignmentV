@@ -14,6 +14,11 @@ header{
     top: 0px;
     right: 0px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+header > div{
+    flex: auto;
 }
 #first_body{
     width: 100%;
@@ -23,6 +28,7 @@ header{
     text-align: justify;
     margin-top: 60px;
     text-align: center;
+    flex-wrap: wrap;
 }
 #first_body div:nth-of-type(2){
     
@@ -47,6 +53,7 @@ a{
 }
 #contact_us{
     display: flex;
+    flex-wrap: wrap;
 }
 #contact_us > div{
     flex: 1 400px;

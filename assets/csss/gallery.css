@@ -17,12 +17,13 @@ h3::before{
     flex: 1;
     width: 30%;
     margin: 10/6%;
+    display: flex;
+    flex-wrap: wrap;
 }
 img{
     list-style-type: none;
     flex-wrap: wrap;
-    flex: 1;
-    float: left;
+    flex: auto;
     max-width: 100%;
     min-width: 10rem;
 }
